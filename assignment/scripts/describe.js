@@ -157,8 +157,12 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX - time is written as a constant, but the instructions state it is a variable.
+// FIX - Should be let time = 4;
 const time = 4;
 
+// FIX - The conditional is written as an OR statement, but the instructions state it is an AND statement.
+// FIX - Should be if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -170,9 +174,16 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+// FIX - minAge is written as a constant, but the instructions state it is a variable.
+// FIX - Should be let minAge = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+// FIX - The two console.logs are swapped. If individuals are 21 or above, the console.log should state 'enter'. If they are below 21, it should state 'no entry'.
+// FIX - Should be console.log('enter');
+                  } else {
+                    console.log('no entry');
+                  }
   console.log('no entry');
 } else {
   console.log('enter');
