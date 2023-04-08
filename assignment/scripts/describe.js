@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to 'Dane' as a string.
+// We make a conditional in which if the name 'Dane' exactly matches 'Mary', the console.log will output 'Hi, Mary!'
+// We add an additional parameter to the conditional in which if the name 'Dane' does not exactly match 'Mary', the console.log will output 'How do you do?'
+// Because the assigned name 'Dane' does not exactly match 'Mary', the console.log will output 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret but do not assign it a value.
+// We make a variable called code and set it to 123 as a number.
+// We make a conditional in which if code exactly matches number value 123, secret is set to 'super' and value of code is multiplied by 2.
+// We add another conditional in which if the code is greater than number value 250, secret is set to 'duper'.
+// We console.log 'secret'. 
+// Because the number value of code exactly matches 123, the first conditional will be run and the number value of code will now equal 246.
+// Because the number value of 246 is still < 250, only the first conditional is met. console.log(secret) will output 'super'.
 
 //CODE
 /*
@@ -70,10 +73,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent and set it to true as a boolean.
+// We make a variable called age and set it to 34 as a number.
+// We make a variable called zip and set it to 55407 as a number.
+// We make a conditional 1 in which if isStudent is exactly true AND zip is greater than value 80000, console.log will output 'You're a student on the West Coast!'.
+// We add conditional 2 (if conditional 1 is not met): If isStudent is exactly false or age is less than value 30, console.log will output 'What are your hobbies?'.
+// We add conditional 3 (if conditionals 1 + 2 are not met): If isStudent is exactly true, console.log will output 'Welcome to Prime!'.
+// We add conditional 4 (if conditionals 1 + 2 + 3 are not met): If all above conditionals are not met, the console.log will output 'How about the weather?'.
+// Because conditionals 1-2 are not met but conditional 3 is met, the console.log will ignore conditional 4 and output 'Welcome to Prime!'.
 
 //CODE
 /*
@@ -130,11 +137,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX - colorOne is set to 'red' and colorTwo is set to 'blue', but the instructions state they are swapped.
+// FIX - Should be let colorOne = 'blue' and let colorTwo = 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+// FIX - Only colorOne is set to 'purple', but the instructions state both colorOne and colorTwo are set to 'purple'.
+// FIX - Should be colorOne = 'purple' && colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
